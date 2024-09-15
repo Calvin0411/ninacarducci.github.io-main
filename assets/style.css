@@ -101,8 +101,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: purple;
+	color: black;
+	background-color: #D8D3A8;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -135,6 +135,12 @@ body {
 	align-items: center;
 	display: flex;
 	font-size: 24px;
+}
+
+.visually-hidden {
+	opacity: 1;
+    color: rgb(54, 54, 54);
+    background-color: rgb(255, 255, 255);
 }
 
 .quote {
